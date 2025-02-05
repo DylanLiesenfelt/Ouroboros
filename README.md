@@ -194,7 +194,10 @@ A Rouge-like monster collector card game with a medieval alchemy theme
 - [] More starter monsters via unlock
 
 ## 1.0.0 - Elixir
-- A cohesive story for first 100 rounds *maybe more rounds*
+- [] UI clean
+    - [] card cleanup 
+    - [] other various components  
+- [] A cohesive story for first 100 rounds *maybe more rounds*
 - [] Progessive bonus system
 - [] Audio
     * [] Background Music
