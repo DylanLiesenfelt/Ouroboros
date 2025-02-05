@@ -1,5 +1,5 @@
 # Ouroboros
-A Rougelike monster collector card game with a mideval alchemy theme
+A Rouge-like monster collector card game with a medieval alchemy theme
 
 ## Battle Gameplay
 ### Setup & Hand Management
@@ -105,7 +105,8 @@ A Rougelike monster collector card game with a mideval alchemy theme
 ### 0.1.0 - Flask
 - [] Start Menu
     - [] Temp base card select menu
-- [] Play Area
+        * [] Starter monsters *3 to start, will be able to unlock more later*
+- [] Battle Menu
     * [] Hand Area
     * [] Deck Area
     * [] Discard Area
@@ -121,56 +122,80 @@ A Rougelike monster collector card game with a mideval alchemy theme
             - [] Attack
             - [] Defense
             - [] Health
-        * Attack Direction
-    * [] Effect 
+        * [] Attack Direction
+    * [] Effect *Place holder*
 - [] Decks
 - [] Battle Game Loop
     * [] Draw
     * [] Discard
     * [] Roll for first
-    * [] Place
+    * [] Place Monsters
     * [] Combat
+        - [] Speed Check
+        - [] Speed Tie Roll
     * [] Damage
+        - [] Monster defated
+        - [] Damage to players
     * [] End Combat
 
 ## 0.2.0 - Aether 
-- [] Starter Deck *1 to start*
-- [] Player Deck Menu
-- [] Game Loop
-- [] Opponents
+- [] Player Deck Menu *See cards in current deck*
+    * [] Deck sortig/building menu
+- [] Out of combat game loop
+    - [] Map menu
+    - [] Opponents
+        * [] Select Opponent
+            - [] Opponent level varies
+            - [] Win reward
+        * [] Gold and exp multipliers
 
-## 0.1.0 - Sulfur 
-- [] Core Combat Mechanics
-    * [] Turns
-    * [] Health
-    * [] Damage
-    * [] Types advantages
 
-## 0.0.4
-- [] Rounds
-- [] Oppnent Types
-- [] Opponent Reward
-- [] Round Reward/ PRogress
+## 0.3.0 - Sulfur 
+- [] Shop 3 Every 3 matches
+    * [] Random inventory
+        - [] Cards
+        - [] Perks
+        - [] Upgrades
+- [] Card effects *Holographic, chrome, rainbow, negative, ect..*
+- [] Card rarity
+- [] Card collection log *implment more with save states later*
+- [] Types advantages *ie Water x2 dameage to fire ect*
+- [] Tool tips
 
-## 0.0.5
-- [] Card Effects *holo, chrome, negative, ect..*
-- [] Effect Tool tip
+## 0.4.0 - Salt
+- [] Boss rounds *Every 10 rounds* 
+    - [] New boss modifiers
+- [] Legendary cards
+- [] 100 round base game
 - [] Card Rairity  
-- [] Merge/Level up cards *Still figuring out how I want to do this*
+- [] Booster packs *7 cards, 1 effect, 6 monster (1 upgraded rarity guarenteed, 1/25 chance to have a effect)* 
+    - [] Themed 
+- [] Level up cards *via card sacrafice* *max level is 7* *are permanant* *can make in battle or outside* 
+     Level 6 → 7: 2 cards 
+     Level 5 → 6: 3 cards 
+     Level 4 → 5: 3 cards 
+     Level 3 → 4: 3 cards 
+     Level 2 → 3: 5 cards 
+     Level 1 → 2: 7 cards
 
-## 0.0.6
+     1890 cards to get one level 7 card, but power scales ^2 ie level 1 with 5 power => level 2 with power 25 
+    * [] level ups bought in shop 
+
+## 0.5.0 - Mercury
+- [] Effect Tool tip
+- [] Fusion Cards *Fusions can happen at special altars based on planets*  *start appearing after first boss* 
+    * [] Altars
+    * [] Requirements
+    * [] Reagents crafting system *Recive from battles or buy from shops*
 - [] Save State
+    * [] persistent collection log
 - [] Load Save Menu *One save with option to clear*
-- [] Settings Menu *Temp* 
-
+- [] Settings Menu 
+- [] More starter monsters via unlock
 
 ## 1.0.0 - Elixir
+- A cohesive story for first 100 rounds *maybe more rounds*
 - [] Progessive bonus system
-- [] Active run card sorting system *to help build decks*
-- [] Card Collection Menu
 - [] Audio
     * [] Background Music
-    * [] Combat Music
-
-## Idea Pool
-- Crafting System
+    * [] Combat Music4
