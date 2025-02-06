@@ -201,4 +201,8 @@ A Rouge-like monster collector card game with a medieval alchemy theme
 - [] Progessive bonus system
 - [] Audio
     * [] Background Music
-    * [] Combat Music4
+    * [] Combat Music
+
+
+# Notes for me:
+I think the number of cards in deck a should be smaller maybe 10, start with 3, maybe combine 3 cards to level up instead as well and have 3 effect cards that permentanly are in effect like balatro jokers.
